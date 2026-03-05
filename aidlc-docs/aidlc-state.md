@@ -29,25 +29,5 @@
 - [x] INCEPTION - Requirements Analysis
 - [x] INCEPTION - User Stories
 - [x] INCEPTION - Workflow Planning
-- [x] INCEPTION - Application Design (완료)
-- [x] INCEPTION - Units Generation (완료)
-- [ ] CONSTRUCTION - Functional Design - Unit 1: Backend API (EXECUTE)
-- [ ] CONSTRUCTION - NFR Requirements - Unit 1: Backend API (EXECUTE)
-- [ ] CONSTRUCTION - NFR Design - Unit 1: Backend API (EXECUTE)
-- [ ] CONSTRUCTION - Code Generation - Unit 1: Backend API (EXECUTE)
-- [ ] CONSTRUCTION - Functional Design - Unit 2: Customer App (EXECUTE)
-- [ ] CONSTRUCTION - NFR Requirements - Unit 2: Customer App (EXECUTE)
-- [ ] CONSTRUCTION - NFR Design - Unit 2: Customer App (EXECUTE)
-- [ ] CONSTRUCTION - Code Generation - Unit 2: Customer App (EXECUTE)
-- [ ] CONSTRUCTION - Functional Design - Unit 3: Admin App (EXECUTE)
-- [ ] CONSTRUCTION - NFR Requirements - Unit 3: Admin App (EXECUTE)
-- [ ] CONSTRUCTION - NFR Design - Unit 3: Admin App (EXECUTE)
-- [ ] CONSTRUCTION - Code Generation - Unit 3: Admin App (EXECUTE)
-- [ ] CONSTRUCTION - Infrastructure Design (SKIP - 로컬 서버)
-- [ ] CONSTRUCTION - Build and Test (EXECUTE)
-
+\
 ## Current Status
-- **Lifecycle Phase**: CONSTRUCTION
-- **Current Stage**: Functional Design - Unit 1: Backend API
-- **Next Stage**: NFR Requirements - Unit 1
-- **Status**: Functional Design Plan 생성 중

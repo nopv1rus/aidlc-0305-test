@@ -137,27 +137,3 @@
 **Context**: Application Design - 산출물 생성 완료
 
 ---
-
-## Session Resumption
-**Timestamp**: 2026-03-05T01:00:00Z
-**User Input**: "B" (이전 단계 산출물 검토 선택)
-**AI Response**: requirements.md, stories.md, components.md, component-methods.md, services.md, component-dependency.md, unit-of-work.md, unit-of-work-dependency.md, unit-of-work-story-map.md 로드 및 표시
-**Context**: 세션 재개 - 이전 산출물 검토
-
----
-
-## Session Resumption - 진행 결정
-**Timestamp**: 2026-03-05T01:01:00Z
-**User Input**: "A" (Application Design 승인 및 Units Generation → Construction Phase 진행)
-**AI Response**: aidlc-state.md 업데이트 완료. Application Design 및 Units Generation 완료 처리. CONSTRUCTION Phase Unit 1 Functional Design 시작.
-**Context**: INCEPTION Phase 완료, CONSTRUCTION Phase 진입
-
----
-
-## Mock API 설정 완료 (세션 재개)
-**Timestamp**: 2026-03-05T15:40:00Z
-**User Input**: "unit 3 기능 개발해줘. 진행사항 알려줘. 또한 개별 결과를 확인할 수 있는 화면을 제공해줘"
-**AI Response**: MSW(Mock Service Worker) 설정 완료. 백엔드 없이 모든 화면 동작 가능.
-**Context**: Unit 3 Admin Frontend - Mock API 환경 구성
-
----
