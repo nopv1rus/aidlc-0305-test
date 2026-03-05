@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="16" fill="#FEF9C3"/>
+  <!-- 철판 그릇 -->
+  <ellipse cx="100" cy="140" rx="58" ry="16" fill="#44403C"/>
+  <ellipse cx="100" cy="136" rx="58" ry="16" fill="#57534E"/>
+  <ellipse cx="100" cy="132" rx="53" ry="13" fill="#78716C"/>
+  <!-- 옥수수 알갱이 -->
+  <circle cx="70" cy="118" r="4" fill="#EAB308"/>
+  <circle cx="80" cy="115" r="4" fill="#FACC15"/>
+  <circle cx="90" cy="120" r="4" fill="#EAB308"/>
+  <circle cx="100" cy="116" r="4" fill="#FACC15"/>
+  <circle cx="110" cy="119" r="4" fill="#EAB308"/>
+  <circle cx="120" cy="115" r="4" fill="#FACC15"/>
+  <circle cx="130" cy="118" r="4" fill="#EAB308"/>
+  <circle cx="75" cy="125" r="4" fill="#FACC15"/>
+  <circle cx="85" cy="127" r="4" fill="#EAB308"/>
+  <circle cx="95" cy="125" r="4" fill="#FACC15"/>
+  <circle cx="105" cy="127" r="4" fill="#EAB308"/>
+  <circle cx="115" cy="125" r="4" fill="#FACC15"/>
+  <circle cx="125" cy="127" r="4" fill="#EAB308"/>
+  <!-- 치즈 녹은 효과 -->
+  <ellipse cx="100" cy="120" rx="30" ry="8" fill="#FDE68A" opacity="0.5"/>
+  <!-- 파슬리 -->
+  <circle cx="95" cy="115" r="2" fill="#22C55E"/>
+  <circle cx="108" cy="122" r="2" fill="#22C55E"/>
+</svg>

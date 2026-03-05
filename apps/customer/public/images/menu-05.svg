@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="16" fill="#FEFCE8"/>
+  <!-- 종이 바구니 -->
+  <path d="M50 130 L60 90 H140 L150 130Z" fill="#DC2626"/>
+  <path d="M50 130 L60 95 H140 L150 130Z" fill="#EF4444"/>
+  <!-- 줄무늬 -->
+  <line x1="75" y1="95" x2="70" y2="130" stroke="#FCA5A5" stroke-width="2"/>
+  <line x1="105" y1="95" x2="100" y2="130" stroke="#FCA5A5" stroke-width="2"/>
+  <line x1="135" y1="95" x2="130" y2="130" stroke="#FCA5A5" stroke-width="2"/>
+  <!-- 감자튀김 -->
+  <rect x="65" y="55" width="8" height="45" rx="3" fill="#EAB308" transform="rotate(-10 65 55)"/>
+  <rect x="78" y="50" width="8" height="48" rx="3" fill="#CA8A04" transform="rotate(5 78 50)"/>
+  <rect x="92" y="48" width="8" height="50" rx="3" fill="#EAB308" transform="rotate(-3 92 48)"/>
+  <rect x="105" y="52" width="8" height="46" rx="3" fill="#CA8A04" transform="rotate(8 105 52)"/>
+  <rect x="118" y="50" width="8" height="48" rx="3" fill="#EAB308" transform="rotate(-5 118 50)"/>
+  <rect x="130" y="55" width="8" height="43" rx="3" fill="#CA8A04" transform="rotate(12 130 55)"/>
+  <!-- 소금 점 -->
+  <circle cx="80" cy="60" r="1.5" fill="#FEF9C3"/>
+  <circle cx="100" cy="55" r="1.5" fill="#FEF9C3"/>
+  <circle cx="120" cy="58" r="1.5" fill="#FEF9C3"/>
+</svg>

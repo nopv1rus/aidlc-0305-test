@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="16" fill="#FEF2F2"/>
+  <!-- 접시 -->
+  <ellipse cx="100" cy="140" rx="60" ry="18" fill="#E5E7EB"/>
+  <ellipse cx="100" cy="136" rx="60" ry="18" fill="#F3F4F6"/>
+  <!-- 치킨 조각들 -->
+  <path d="M65 110 Q70 90 85 95 Q90 105 80 115Z" fill="#EA580C" rx="4"/>
+  <path d="M80 105 Q88 85 105 90 Q108 102 95 112Z" fill="#F97316"/>
+  <path d="M95 108 Q105 88 120 93 Q122 105 110 115Z" fill="#EA580C"/>
+  <path d="M110 105 Q118 88 135 95 Q133 108 122 113Z" fill="#F97316"/>
+  <!-- 바삭한 텍스처 -->
+  <circle cx="75" cy="100" r="2" fill="#FDBA74"/>
+  <circle cx="90" cy="95" r="2" fill="#FDBA74"/>
+  <circle cx="105" cy="98" r="2" fill="#FDBA74"/>
+  <circle cx="120" cy="95" r="2" fill="#FDBA74"/>
+  <!-- 고추 -->
+  <path d="M130 100 Q140 95 145 100 Q140 105 130 100Z" fill="#DC2626"/>
+  <path d="M60 108 Q50 103 45 108 Q50 113 60 108Z" fill="#DC2626"/>
+  <!-- 연기 -->
+  <path d="M90 72 Q93 62 90 52" stroke="#D1D5DB" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M110 68 Q113 58 110 48" stroke="#D1D5DB" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

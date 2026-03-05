@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="16" fill="#FEF2F2"/>
+  <!-- 컵 -->
+  <path d="M65 60 L72 155 H128 L135 60Z" fill="#DC2626"/>
+  <path d="M65 60 L72 155 H128 L135 60Z" fill="url(#cola-grad)"/>
+  <!-- 로고 영역 -->
+  <ellipse cx="100" cy="105" rx="25" ry="18" fill="#FAFAFA" opacity="0.3"/>
+  <!-- 얼음 -->
+  <rect x="78" y="65" width="15" height="12" rx="3" fill="#DBEAFE" opacity="0.7"/>
+  <rect x="98" y="68" width="15" height="12" rx="3" fill="#BFDBFE" opacity="0.7"/>
+  <rect x="85" y="78" width="12" height="10" rx="3" fill="#DBEAFE" opacity="0.6"/>
+  <!-- 빨대 -->
+  <rect x="108" y="35" width="5" height="85" rx="2.5" fill="#DC2626"/>
+  <rect x="108" y="35" width="5" height="85" rx="2.5" fill="#EF4444" opacity="0.5"/>
+  <!-- 거품 -->
+  <circle cx="82" cy="62" r="4" fill="#FDE68A" opacity="0.4"/>
+  <circle cx="92" cy="60" r="5" fill="#FDE68A" opacity="0.3"/>
+  <circle cx="105" cy="62" r="4" fill="#FDE68A" opacity="0.4"/>
+  <!-- 물방울 -->
+  <circle cx="62" cy="90" r="2" fill="#BFDBFE" opacity="0.6"/>
+  <circle cx="137" cy="100" r="2" fill="#BFDBFE" opacity="0.6"/>
+  <circle cx="60" cy="110" r="1.5" fill="#BFDBFE" opacity="0.5"/>
+  <defs>
+    <linearGradient id="cola-grad" x1="100" y1="60" x2="100" y2="155" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DC2626"/>
+      <stop offset="1" stop-color="#991B1B"/>
+    </linearGradient>
+  </defs>
+</svg>

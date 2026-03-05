@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="16" fill="#FFFBEB"/>
+  <!-- 접시 -->
+  <ellipse cx="100" cy="145" rx="62" ry="18" fill="#E5E7EB"/>
+  <ellipse cx="100" cy="141" rx="62" ry="18" fill="#F9FAFB"/>
+  <!-- 파스타 면 -->
+  <path d="M55 115 Q70 100 85 115 Q100 100 115 115 Q130 100 145 115" stroke="#EAB308" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M60 125 Q75 110 90 125 Q105 110 120 125 Q135 110 140 125" stroke="#CA8A04" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M65 105 Q80 90 95 105 Q110 90 125 105 Q135 95 140 105" stroke="#EAB308" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- 크림 소스 -->
+  <ellipse cx="100" cy="118" rx="35" ry="12" fill="#FEF9C3" opacity="0.6"/>
+  <!-- 트러플 조각 -->
+  <circle cx="85" cy="108" r="4" fill="#44403C"/>
+  <circle cx="105" cy="112" r="3" fill="#57534E"/>
+  <circle cx="115" cy="105" r="3.5" fill="#44403C"/>
+  <!-- 파슬리 -->
+  <circle cx="92" cy="102" r="2" fill="#22C55E"/>
+  <circle cx="110" cy="100" r="2" fill="#22C55E"/>
+</svg>

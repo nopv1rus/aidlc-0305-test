@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="16" fill="#FEF2F2"/>
+  <!-- 그릇 -->
+  <ellipse cx="100" cy="145" rx="58" ry="16" fill="#D1D5DB"/>
+  <ellipse cx="100" cy="141" rx="58" ry="16" fill="#F3F4F6"/>
+  <!-- 소스 -->
+  <ellipse cx="100" cy="125" rx="48" ry="14" fill="#DC2626"/>
+  <!-- 떡 조각들 -->
+  <rect x="60" y="108" width="25" height="12" rx="6" fill="#FAFAFA"/>
+  <rect x="78" y="115" width="25" height="12" rx="6" fill="#F5F5F5"/>
+  <rect x="95" y="108" width="25" height="12" rx="6" fill="#FAFAFA"/>
+  <rect x="115" y="115" width="25" height="12" rx="6" fill="#F5F5F5"/>
+  <rect x="70" y="120" width="22" height="11" rx="5.5" fill="#FAFAFA"/>
+  <rect x="105" y="120" width="22" height="11" rx="5.5" fill="#FAFAFA"/>
+  <!-- 소스 광택 -->
+  <ellipse cx="85" cy="118" rx="8" ry="3" fill="#EF4444" opacity="0.7"/>
+  <ellipse cx="115" cy="115" rx="8" ry="3" fill="#EF4444" opacity="0.7"/>
+  <!-- 파 장식 -->
+  <line x1="80" y1="108" x2="85" y2="103" stroke="#16A34A" stroke-width="2" stroke-linecap="round"/>
+  <line x1="110" y1="106" x2="115" y2="101" stroke="#16A34A" stroke-width="2" stroke-linecap="round"/>
+  <!-- 깨 -->
+  <circle cx="90" cy="112" r="1" fill="#FDE68A"/>
+  <circle cx="105" cy="110" r="1" fill="#FDE68A"/>
+  <circle cx="120" cy="113" r="1" fill="#FDE68A"/>
+</svg>

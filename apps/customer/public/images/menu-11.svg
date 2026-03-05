@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="16" fill="#FEF9C3"/>
+  <!-- 맥주잔 -->
+  <rect x="60" y="55" width="70" height="100" rx="6" fill="#FAFAFA" opacity="0.3" stroke="#D1D5DB" stroke-width="2"/>
+  <!-- 맥주 -->
+  <rect x="62" y="70" width="66" height="83" rx="4" fill="#F59E0B"/>
+  <rect x="62" y="70" width="66" height="83" rx="4" fill="url(#beer-grad)"/>
+  <!-- 손잡이 -->
+  <path d="M130 75 Q150 75 150 105 Q150 135 130 135" stroke="#D1D5DB" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- 거품 -->
+  <ellipse cx="78" cy="68" rx="10" ry="8" fill="#FEFCE8"/>
+  <ellipse cx="95" cy="65" rx="12" ry="10" fill="#FEF9C3"/>
+  <ellipse cx="112" cy="68" rx="10" ry="8" fill="#FEFCE8"/>
+  <ellipse cx="85" cy="62" rx="8" ry="6" fill="#FFFBEB"/>
+  <ellipse cx="105" cy="60" rx="9" ry="7" fill="#FFFBEB"/>
+  <!-- 기포 -->
+  <circle cx="80" cy="110" r="2" fill="#FDE68A" opacity="0.5"/>
+  <circle cx="95" cy="130" r="2.5" fill="#FDE68A" opacity="0.4"/>
+  <circle cx="110" cy="100" r="2" fill="#FDE68A" opacity="0.5"/>
+  <circle cx="85" cy="140" r="1.5" fill="#FDE68A" opacity="0.4"/>
+  <circle cx="105" cy="120" r="2" fill="#FDE68A" opacity="0.5"/>
+  <defs>
+    <linearGradient id="beer-grad" x1="95" y1="70" x2="95" y2="153" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+</svg>
