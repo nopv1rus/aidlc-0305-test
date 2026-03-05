@@ -29,17 +29,25 @@
 - [x] INCEPTION - Requirements Analysis
 - [x] INCEPTION - User Stories
 - [x] INCEPTION - Workflow Planning
-- [ ] INCEPTION - Application Design (EXECUTE)
-- [ ] INCEPTION - Units Generation (EXECUTE)
-- [ ] CONSTRUCTION - Functional Design (EXECUTE, per-unit)
-- [ ] CONSTRUCTION - NFR Requirements (EXECUTE, per-unit)
-- [ ] CONSTRUCTION - NFR Design (EXECUTE, per-unit)
+- [x] INCEPTION - Application Design (완료)
+- [x] INCEPTION - Units Generation (완료)
+- [ ] CONSTRUCTION - Functional Design - Unit 1: Backend API (EXECUTE)
+- [ ] CONSTRUCTION - NFR Requirements - Unit 1: Backend API (EXECUTE)
+- [ ] CONSTRUCTION - NFR Design - Unit 1: Backend API (EXECUTE)
+- [ ] CONSTRUCTION - Code Generation - Unit 1: Backend API (EXECUTE)
+- [ ] CONSTRUCTION - Functional Design - Unit 2: Customer App (EXECUTE)
+- [ ] CONSTRUCTION - NFR Requirements - Unit 2: Customer App (EXECUTE)
+- [ ] CONSTRUCTION - NFR Design - Unit 2: Customer App (EXECUTE)
+- [ ] CONSTRUCTION - Code Generation - Unit 2: Customer App (EXECUTE)
+- [ ] CONSTRUCTION - Functional Design - Unit 3: Admin App (EXECUTE)
+- [ ] CONSTRUCTION - NFR Requirements - Unit 3: Admin App (EXECUTE)
+- [ ] CONSTRUCTION - NFR Design - Unit 3: Admin App (EXECUTE)
+- [ ] CONSTRUCTION - Code Generation - Unit 3: Admin App (EXECUTE)
 - [ ] CONSTRUCTION - Infrastructure Design (SKIP - 로컬 서버)
-- [ ] CONSTRUCTION - Code Generation (EXECUTE, per-unit)
 - [ ] CONSTRUCTION - Build and Test (EXECUTE)
 
 ## Current Status
-- **Lifecycle Phase**: INCEPTION
-- **Current Stage**: Workflow Planning Complete
-- **Next Stage**: Application Design
-- **Status**: 사용자 승인 대기
+- **Lifecycle Phase**: CONSTRUCTION
+- **Current Stage**: Functional Design - Unit 1: Backend API
+- **Next Stage**: NFR Requirements - Unit 1
+- **Status**: Functional Design Plan 생성 중
