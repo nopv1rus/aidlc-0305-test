@@ -159,3 +159,27 @@
 **Context**: Units Generation Part 2 - Generation 완료. 전체 산출물 3개 생성.
 
 ---
+
+## Session Resumption
+**Timestamp**: 2026-03-05T15:10:13Z
+**User Input**: "unit1 으로 backend 를 개발할 예정이야. md파일을 확인해서 우리가 해야할 업무를 확인해볼래?"
+**AI Response**: Unit 1 Backend API Server 업무 요약 제공. 9개 모듈, 9개 DB 테이블, 비기능 요구사항 정리. CONSTRUCTION 단계 진행 순서 안내.
+**Context**: Session resumption - Unit 1 Backend 개발 시작 준비
+
+---
+
+## Session Resumption - 병렬 개발 요청
+**Timestamp**: 2026-03-05T15:11:10Z
+**User Input**: "팀 에이전트 기능이 있다면 병렬로 개발을 부탁해. 서브 에이전트로 있다면 병렬로 개발을 했으면 좋겠어."
+**AI Response**: 서브에이전트 시스템 확인. kiro_default, kiro_help, kiro_planner 3개 에이전트 존재. 서브에이전트 간 통신 불가, 파일 충돌 위험, AIDLC 워크플로우 순차 승인 필요 등 제약 설명. 설계 단계 순차 진행 후 Code Generation에서 병렬화 제안.
+**Context**: 병렬 개발 가능성 검토
+
+---
+
+## Session Resumption - 브랜치 준비 및 개발 시작
+**Timestamp**: 2026-03-05T15:12:43Z
+**User Input**: "master 브런치 최신을 기반으로 feature/backend 로 다시 최신화 이후에 개발을 순서대로 진행을 부탁해."
+**AI Response**: master pull 완료, feature/backend 브랜치로 전환 후 master 기반 rebase 완료. CONSTRUCTION 단계 Functional Design부터 순차 진행 시작.
+**Context**: 브랜치 준비 완료, CONSTRUCTION - Functional Design (Unit 1) 시작
+
+---
