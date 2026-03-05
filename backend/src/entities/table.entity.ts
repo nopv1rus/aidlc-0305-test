@@ -1,4 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, CreateDateColumn } from 'typeorm';
+import { Exclude } from 'class-transformer';
 import { Store } from './store.entity';
 import { Order } from './order.entity';
 
@@ -10,7 +11,8 @@ export class StoreTable {
   @Column()
   tableNumber: number;
 
-  @Column()
+  @Exclude()
+  @Column({ select: false })
   password: string; // bcrypt hashed
 
   @Column({ type: 'varchar', nullable: true })

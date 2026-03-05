@@ -33,9 +33,12 @@ export class AuthService {
     const store = await this.storeRepo.findOne({ where: { storeCode: dto.storeCode } });
     if (!store) throw new UnauthorizedException('매장 또는 인증 정보가 올바르지 않습니다.');
 
-    const admin = await this.adminRepo.findOne({
-      where: { username: dto.username, storeId: store.id },
-    });
+    const admin = await this.adminRepo
+      .createQueryBuilder('admin')
+      .addSelect('admin.password')
+      .where('admin.username = :username', { username: dto.username })
+      .andWhere('admin.storeId = :storeId', { storeId: store.id })
+      .getOne();
     if (!admin) throw new UnauthorizedException('매장 또는 인증 정보가 올바르지 않습니다.');
 
     // 잠금 확인
@@ -67,9 +70,12 @@ export class AuthService {
     const store = await this.storeRepo.findOne({ where: { storeCode: dto.storeCode } });
     if (!store) throw new UnauthorizedException('매장 또는 테이블 정보가 올바르지 않습니다.');
 
-    const table = await this.tableRepo.findOne({
-      where: { tableNumber: dto.tableNumber, storeId: store.id },
-    });
+    const table = await this.tableRepo
+      .createQueryBuilder('table')
+      .addSelect('table.password')
+      .where('table.tableNumber = :tableNumber', { tableNumber: dto.tableNumber })
+      .andWhere('table.storeId = :storeId', { storeId: store.id })
+      .getOne();
     if (!table) throw new UnauthorizedException('매장 또는 테이블 정보가 올바르지 않습니다.');
 
     const isValid = await bcrypt.compare(dto.password, table.password);

@@ -1,4 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, CreateDateColumn } from 'typeorm';
+import { Exclude } from 'class-transformer';
 import { Store } from './store.entity';
 
 @Entity('admins')
@@ -9,7 +10,8 @@ export class Admin {
   @Column()
   username: string;
 
-  @Column()
+  @Exclude()
+  @Column({ select: false })
   password: string; // bcrypt hashed
 
   @Column({ default: 0 })

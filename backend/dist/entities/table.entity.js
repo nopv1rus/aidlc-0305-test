@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.StoreTable = void 0;
 const typeorm_1 = require("typeorm");
+const class_transformer_1 = require("class-transformer");
 const store_entity_1 = require("./store.entity");
 const order_entity_1 = require("./order.entity");
 let StoreTable = class StoreTable {
@@ -34,7 +35,8 @@ __decorate([
     __metadata("design:type", Number)
 ], StoreTable.prototype, "tableNumber", void 0);
 __decorate([
-    (0, typeorm_1.Column)(),
+    (0, class_transformer_1.Exclude)(),
+    (0, typeorm_1.Column)({ select: false }),
     __metadata("design:type", String)
 ], StoreTable.prototype, "password", void 0);
 __decorate([
