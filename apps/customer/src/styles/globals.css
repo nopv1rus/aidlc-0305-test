@@ -1,0 +1,82 @@
+@import 'tailwindcss';
+
+/* Safe Area */
+:root {
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+}
+
+/* Global touch optimization */
+* {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Tabular nums for price/quantity */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Content visibility for long lists */
+.menu-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 300px;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: #000;
+  color: #fff;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Scroll margin for category headings */
+[data-category-section] {
+  scroll-margin-top: 7rem;
+}
+
+/* Bottom sheet overlay */
+.bottom-sheet-overlay {
+  overscroll-behavior: contain;
+}
+
+/* Body overflow control */
+body.sheet-open {
+  overflow: hidden;
+}
+
+/* Focus visible global */
+:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Min touch target */
+button,
+a,
+[role='button'],
+[role='tab'] {
+  min-height: 44px;
+}

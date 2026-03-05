@@ -1,0 +1,16 @@
+{
+  "session": {
+    "id": "session-001",
+    "storeId": "store-001",
+    "tableId": "table-001",
+    "startedAt": "2026-03-05T10:00:00Z"
+  },
+  "store": {
+    "id": "store-001",
+    "name": "맛있는 식당"
+  },
+  "table": {
+    "id": "table-001",
+    "number": 5
+  }
+}

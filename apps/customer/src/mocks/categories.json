@@ -1,0 +1,145 @@
+{
+  "categories": [
+    {
+      "id": "cat-01",
+      "name": "추천 메뉴",
+      "sortOrder": 1,
+      "menus": [
+        {
+          "id": "menu-01",
+          "name": "시그니처 불고기",
+          "price": 18000,
+          "description": "특제 양념에 재운 프리미엄 불고기",
+          "imageUrl": null,
+          "badge": "signature",
+          "sortOrder": 1,
+          "categoryId": "cat-01"
+        },
+        {
+          "id": "menu-02",
+          "name": "매콤 치킨",
+          "price": 16000,
+          "description": "바삭한 치킨에 매콤한 소스를 곁들인 인기 메뉴",
+          "imageUrl": null,
+          "badge": "popular",
+          "sortOrder": 2,
+          "categoryId": "cat-01"
+        },
+        {
+          "id": "menu-03",
+          "name": "트러플 파스타",
+          "price": 22000,
+          "description": "향긋한 트러플 오일의 크림 파스타",
+          "imageUrl": null,
+          "badge": "new",
+          "sortOrder": 3,
+          "categoryId": "cat-01"
+        },
+        {
+          "id": "menu-04",
+          "name": "한우 스테이크",
+          "price": 45000,
+          "description": "1++ 등급 한우 안심 스테이크",
+          "imageUrl": null,
+          "badge": null,
+          "sortOrder": 4,
+          "categoryId": "cat-01"
+        }
+      ]
+    },
+    {
+      "id": "cat-02",
+      "name": "사이드",
+      "sortOrder": 2,
+      "menus": [
+        {
+          "id": "menu-05",
+          "name": "감자튀김",
+          "price": 6000,
+          "description": "바삭한 감자튀김",
+          "imageUrl": null,
+          "badge": null,
+          "sortOrder": 1,
+          "categoryId": "cat-02"
+        },
+        {
+          "id": "menu-06",
+          "name": "시저 샐러드",
+          "price": 9000,
+          "description": "신선한 로메인과 파마산 치즈",
+          "imageUrl": null,
+          "badge": null,
+          "sortOrder": 2,
+          "categoryId": "cat-02"
+        },
+        {
+          "id": "menu-07",
+          "name": "콘치즈",
+          "price": 7000,
+          "description": "달콤한 옥수수와 치즈의 조합",
+          "imageUrl": null,
+          "badge": "popular",
+          "sortOrder": 3,
+          "categoryId": "cat-02"
+        },
+        {
+          "id": "menu-08",
+          "name": "떡볶이",
+          "price": 8000,
+          "description": "쫄깃한 떡과 매콤달콤한 소스",
+          "imageUrl": null,
+          "badge": null,
+          "sortOrder": 4,
+          "categoryId": "cat-02"
+        }
+      ]
+    },
+    {
+      "id": "cat-03",
+      "name": "음료",
+      "sortOrder": 3,
+      "menus": [
+        {
+          "id": "menu-09",
+          "name": "콜라",
+          "price": 3000,
+          "description": "",
+          "imageUrl": null,
+          "badge": null,
+          "sortOrder": 1,
+          "categoryId": "cat-03"
+        },
+        {
+          "id": "menu-10",
+          "name": "사이다",
+          "price": 3000,
+          "description": "",
+          "imageUrl": null,
+          "badge": null,
+          "sortOrder": 2,
+          "categoryId": "cat-03"
+        },
+        {
+          "id": "menu-11",
+          "name": "생맥주",
+          "price": 5000,
+          "description": "시원한 생맥주 500ml",
+          "imageUrl": null,
+          "badge": "popular",
+          "sortOrder": 3,
+          "categoryId": "cat-03"
+        },
+        {
+          "id": "menu-12",
+          "name": "아이스 아메리카노",
+          "price": 4000,
+          "description": "진한 에스프레소의 아이스 아메리카노",
+          "imageUrl": null,
+          "badge": "new",
+          "sortOrder": 4,
+          "categoryId": "cat-03"
+        }
+      ]
+    }
+  ]
+}

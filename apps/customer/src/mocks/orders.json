@@ -1,0 +1,46 @@
+{
+  "orders": [
+    {
+      "id": "order-001",
+      "orderNumber": "#101",
+      "status": "completed",
+      "totalAmount": 34000,
+      "items": [
+        { "menuId": "menu-01", "menuName": "시그니처 불고기", "quantity": 1, "unitPrice": 18000 },
+        { "menuId": "menu-02", "menuName": "매콤 치킨", "quantity": 1, "unitPrice": 16000 }
+      ],
+      "createdAt": "2026-03-05T10:30:00Z"
+    },
+    {
+      "id": "order-002",
+      "orderNumber": "#102",
+      "status": "preparing",
+      "totalAmount": 22000,
+      "items": [
+        { "menuId": "menu-03", "menuName": "트러플 파스타", "quantity": 1, "unitPrice": 22000 }
+      ],
+      "createdAt": "2026-03-05T11:00:00Z"
+    },
+    {
+      "id": "order-003",
+      "orderNumber": "#103",
+      "status": "pending",
+      "totalAmount": 11000,
+      "items": [
+        { "menuId": "menu-05", "menuName": "감자튀김", "quantity": 1, "unitPrice": 6000 },
+        { "menuId": "menu-11", "menuName": "생맥주", "quantity": 1, "unitPrice": 5000 }
+      ],
+      "createdAt": "2026-03-05T11:15:00Z"
+    },
+    {
+      "id": "order-004",
+      "orderNumber": "#104",
+      "status": "cancelled",
+      "totalAmount": 9000,
+      "items": [
+        { "menuId": "menu-06", "menuName": "시저 샐러드", "quantity": 1, "unitPrice": 9000 }
+      ],
+      "createdAt": "2026-03-05T11:20:00Z"
+    }
+  ]
+}

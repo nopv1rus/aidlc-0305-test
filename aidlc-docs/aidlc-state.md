@@ -32,14 +32,26 @@
 - [x] INCEPTION - Application Design (COMPLETED)
 - [x] INCEPTION - Units Generation (COMPLETED)
 - [ ] CONSTRUCTION - Functional Design (EXECUTE, per-unit)
+  - [ ] Unit 1: Backend API Server
+  - [x] Unit 2: Customer Frontend
+  - [ ] Unit 3: Admin Frontend
 - [ ] CONSTRUCTION - NFR Requirements (EXECUTE, per-unit)
+  - [ ] Unit 1: Backend API Server
+  - [x] Unit 2: Customer Frontend
+  - [ ] Unit 3: Admin Frontend
 - [ ] CONSTRUCTION - NFR Design (EXECUTE, per-unit)
+  - [ ] Unit 1: Backend API Server
+  - [x] Unit 2: Customer Frontend
+  - [ ] Unit 3: Admin Frontend
 - [ ] CONSTRUCTION - Infrastructure Design (SKIP - 로컬 서버)
 - [ ] CONSTRUCTION - Code Generation (EXECUTE, per-unit)
+  - [ ] Unit 1: Backend API Server
+  - [x] Unit 2: Customer Frontend
+  - [ ] Unit 3: Admin Frontend
 - [ ] CONSTRUCTION - Build and Test (EXECUTE)
 
 ## Current Status
-- **Lifecycle Phase**: INCEPTION
-- **Current Stage**: Units Generation Complete
-- **Next Stage**: CONSTRUCTION PHASE - Functional Design (Unit 1: Backend API)
-- **Status**: 사용자 승인 대기
+- **Lifecycle Phase**: CONSTRUCTION
+- **Current Stage**: Build and Test ✅ 완료
+- **Next Stage**: Operations (Placeholder)
+- **Status**: Unit 2 Customer Frontend 빌드 및 테스트 완료

@@ -1,0 +1,8 @@
+export type ErrorCode =
+  | 'NETWORK_ERROR'
+  | 'SESSION_EXPIRED'
+  | 'SESSION_INVALID'
+  | 'SERVER_ERROR'
+  | 'VALIDATION_ERROR'
+  | 'RATE_LIMITED'
+  | 'UNKNOWN'
